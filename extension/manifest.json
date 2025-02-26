@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "QR Kod Oluşturucu",
+  "version": "1.0",
+  "description": "Bağlantıyı QR koda çeviren Chrome uzantısı",
+  "permissions": ["storage"],
+  "host_permissions": ["http://localhost:3000/*"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  }
+}
